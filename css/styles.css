@@ -1,0 +1,41 @@
+body{
+    background-color: #88585;
+}
+
+#questionpannel
+{
+float: left;
+    position: relative;
+    height: 100%;
+    padding-top:0%;
+    padding-bottom:0%;
+   
+    padding-left: 0em;
+    margin: 0;
+    border: 1px solid #050500f5;
+    border-radius: 5px;
+    box-shadow: #212121;
+    line-height: 10%;
+    text-align: left;
+}
+li{
+    padding:14px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+}
+a{color: rgb(5, 5, 5);}
+ ol li :hover{
+     background-color: yellow;
+}
+
+div.answers{
+    border-radius: 5px;
+    padding: 1px;
+    position: relative;
+    top:0;
+ display: inline-block;
+ float:  right;
+ width: 500px;
+    background-color: aliceblue;
+}
